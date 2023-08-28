@@ -17,11 +17,11 @@ export const Input = styled.input`
   font-size: 20px;
   border-radius: 12px;
   outline: none;
-  border-color: #0000ffe0;
+  border-color: #1e1e1fdf;
   margin-top: 16px;
 
   &:focus {
-    box-shadow: 3px 1px 32px 0px rgba(28, 18, 227, 1);
+    box-shadow: 3px 1px 32px 0px #4a4a4b;
   }
   &::placeholder {
     margin-left: 50px;
@@ -34,3 +34,5 @@ export const SearchIIcon = styled(BiSearchAlt)`
   transform: translateY(-50%);
   fill: grey;
 `;
+
+

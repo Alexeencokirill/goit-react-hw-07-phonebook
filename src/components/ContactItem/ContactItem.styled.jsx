@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import { BiSolidTrash } from 'react-icons/bi';
-
+export const List = styled.ul`
+  list-style: none;
+  margin: 30px auto 60px auto;
+  padding: 0;
+  width: 600px;
+`;
 export const ListItem = styled.li`
   display: flex;
   justify-content: space-between;
@@ -32,11 +37,11 @@ export const Button = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: rgba(30, 0, 255, 0.496);
+  background-color: rgba(18, 18, 19, 0.496);
   transition: box-shadow 250ms ease-in;
   &:hover,
   &:focus {
-    box-shadow: 3px 1px 32px 0px rgba(28, 18, 227, 1);
+    box-shadow: 3px 1px 32px 0px #141415;
   }
 `;
 export const TrashIcon = styled(BiSolidTrash)`
@@ -45,3 +50,5 @@ export const TrashIcon = styled(BiSolidTrash)`
   fill: #000000ae;
   pointer-events: none;
 `;
+
+

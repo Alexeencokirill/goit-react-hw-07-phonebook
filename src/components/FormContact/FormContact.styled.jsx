@@ -6,7 +6,7 @@ export const Container = styled.div`
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 40px;
-  background-color: rgba(9, 239, 220, 0.437);
+  background-color: #9f94ab7f;
   margin: 40px auto 0 auto;
   border-radius: 12px;
   box-shadow: inset -7px -6px 5px 1px rgba(0, 0, 0, 0.1);
@@ -17,7 +17,6 @@ export const FormCont = styled(Form)`
 `;
 
 export const Label = styled.label`
-  /* margin: 16px 50px 4px 0; */
   font-size: 20px;
   font-weight: 500;
   margin: 0 auto;
@@ -31,11 +30,11 @@ export const Input = styled(Field)`
   margin-top: 10px;
   border-radius: 12px;
   outline: none;
-  border-color: #0000ffe0;
+  border-color: #1e1e1fdf;
 
   &:hover,
   &:focus {
-    box-shadow: 3px 1px 32px 0px rgba(28, 18, 227, 1);
+    box-shadow: 3px 1px 32px 0px #f3f2f6;
   }
 `;
 
@@ -45,20 +44,22 @@ export const BtnAdd = styled.button`
   padding: 16px 28px;
   border-radius: 12px;
   font-size: 20px;
-  background-color: rgba(30, 0, 255, 0.496);
+  background-color: rgba(27, 27, 28, 0.496);
   border: none;
   outline: none;
   cursor: pointer;
   transition: box-shadow 250ms ease-in;
   &:disabled {
-    background-color: rgba(0, 255, 255, 0.688);
+    background-color: rgba(89, 92, 92, 0.688);
   }
   &:hover,
   &:focus {
-    box-shadow: 3px 1px 32px 0px rgba(28, 18, 227, 1);
+    box-shadow: 3px 1px 32px 0px #f3f2f6;
   }
 `;
 export const Error = styled(ErrorMessage)`
   color: red;
   margin-bottom: 10px;
 `;
+
+
